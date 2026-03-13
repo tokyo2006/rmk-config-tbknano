@@ -8,8 +8,13 @@ manufacturer = "xinta"
 chip = "nrf52840"
 
 
-[behavior]
-tap_hold = { enable_hrm = true, prior_idle_time = "180ms", hold_timeout = "200ms", post_wait_time = "1ms"}
+[behavior.morse]
+enable_flow_tap = true
+prior_idle_time = "180ms"
+hold_on_other_press = true
+hold_timeout = "200ms"
+gap_timeout = "200ms"
+
 
 [layout]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
