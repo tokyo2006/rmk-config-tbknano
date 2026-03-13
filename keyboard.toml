@@ -60,8 +60,8 @@ col_offset = 0
 ble_addr = [0x18, 0xe2, 0x21, 0x80, 0xc0, 0xc7]
 [split.central.matrix]
 matrix_type = "normal"
-input_pins = ["P0_31", "P1_15", "P0_24", "P0_22"]
-output_pins = ["P0_02", "P0_29", "P0_09", "P1_00","P0_11"] 
+row_pins = ["P0_31", "P1_15", "P0_24", "P0_22"]
+col_pins = ["P0_02", "P0_29", "P0_09", "P1_00","P0_11"] 
 
 
 [[split.peripheral]]
@@ -72,8 +72,8 @@ col_offset = 5
 ble_addr = [0x7e, 0xfe, 0x73, 0x9e, 0x66, 0xe3]
 [split.peripheral.matrix]
 matrix_type = "normal"
-input_pins = ["P0_31", "P1_15", "P0_24", "P0_22"]
-output_pins = ["P0_11","P1_00","P0_09","P0_02","P0_29" ] 
+row_pins = ["P0_31", "P1_15", "P0_24", "P0_22"]
+col_pins = ["P0_11","P1_00","P0_09","P0_02","P0_29" ] 
 
 
 
